@@ -110,7 +110,7 @@
     if (scrollableHeight / 2.0 < offset_max) {
         if (_alwaysCollapse) {
             UIEdgeInsets scrInset   = scrollView.contentInset;
-            scrInset.bottom         = 2. * offset_max - scrollableHeight;
+           // scrInset.bottom         = 2. * offset_max - scrollableHeight;
             scrollView.contentInset = scrInset;
         } else {
             return;
